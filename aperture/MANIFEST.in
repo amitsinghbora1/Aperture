@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include aperture *.css
+recursive-include aperture *.csv
+recursive-include aperture *.html
+recursive-include aperture *.ico
+recursive-include aperture *.js
+recursive-include aperture *.json
+recursive-include aperture *.md
+recursive-include aperture *.png
+recursive-include aperture *.py
+recursive-include aperture *.svg
+recursive-include aperture *.txt
+recursive-exclude aperture *.pyc
